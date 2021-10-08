@@ -1,0 +1,40 @@
+body {
+  margin: 0em;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.cover {
+  height: 400px;
+  background-image: url("/img/headercito.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: darken;
+}
+
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.card-title {
+  min-height: 2rem;
+}
+
+.card-text {
+  min-height: 5rem;
+}
+
+.vector {
+  max-width: 100%;
+}
+
+.formularito {
+  max-width: 50%;
+}
+
+textarea {
+  height: 10em;
+}
